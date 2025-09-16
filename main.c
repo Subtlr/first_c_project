@@ -116,7 +116,7 @@ int main()
     }
 
     printf("Converted temperature: %.2lf %c\n", temperature, unit);
-    printf("Do you want to perform another conversion? (1 for Yes / 0 for No): ");
+    printf("Do you want to perform another conversion? (1 for Yes / anything else for No): ");
     scanf("%d", &running);
     if (running != 1)
     {
